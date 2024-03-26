@@ -38,16 +38,17 @@ body {
 }
 
 .container-input input {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   width: 100%;
   height: 30px;
   margin-bottom: 10px;
-  border: 1px solid #393939;
-  border-radius: 2px;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid;
 }
 
 .container label {
-  font-size: 1.3rem;
+  font-size: 1.2rem;
 }
 
 .container-button {
