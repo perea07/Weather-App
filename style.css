@@ -80,7 +80,6 @@ body {
   width: 50px;
 }
 
-/* Media queries para dispositivos móviles */
 @media only screen and (max-width: 600px) {
   .container {
     width: 100%;
@@ -93,10 +92,15 @@ body {
   }
 
   .container-input input {
-    height: 40px; /* Ajuste de la altura del campo de entrada para dispositivos móviles */
+    font-size: 1rem; /* Reducir el tamaño de la fuente para dispositivos móviles */
+    height: 30px; /* Ajuste de la altura del campo de entrada para dispositivos móviles */
+    padding: 5px; /* Ajuste del relleno del campo de entrada para dispositivos móviles */
+    box-sizing: border-box; /* Incluir el padding en el tamaño total del input */
   }
 
   .btn {
     width: 90%; /* Ajuste del ancho del botón para dispositivos móviles */
+    padding: 8px; /* Ajuste del relleno del botón para dispositivos móviles */
   }
 }
+
