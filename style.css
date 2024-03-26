@@ -88,14 +88,15 @@ body {
   }
 
   .container-form {
-    padding: 10px;
+    width: 90%; /* Ajuste del ancho del formulario para dispositivos móviles */
+    padding: 15px; /* Ajuste del espacio interior del formulario */
   }
 
   .container-input input {
-    height: 30px;
+    height: 40px; /* Ajuste de la altura del campo de entrada para dispositivos móviles */
   }
 
   .btn {
-    width: 80%;
+    width: 90%; /* Ajuste del ancho del botón para dispositivos móviles */
   }
 }
