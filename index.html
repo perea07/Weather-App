@@ -1,9 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Proyecto clima</title>
+    <link rel="icon" type="image/png" href="cloudy.png">
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
@@ -12,7 +13,7 @@
         <h3 class="title">
           Weather App <img src="weather.gif" alt="Cloudy" />
         </h3>
-        <form action="" autocomplete="off">
+        <form autocomplete="off">
           <div class="container-input">
             <label for="country">Ingresa el nombre del país:</label>
             <input type="text" id="country" placeholder="" />
@@ -20,16 +21,18 @@
             <input type="text" id="city" />
           </div>
           <div class="container-button">
-            <button class="btn">Obtener el clima</button>
+            <button class="btn" id="btn-send">Obtener el clima</button>
           </div>
           <div class="container-result" id="result">
-            <p>Temperatura:</p>
-            <p>Humedad:</p>
+            <p id="country-city"></p>
+            <p id="temp"></p>
+            <p id="hum"></p>
+            <p id="description"></p>
           </div>
         </form>
       </div>
     </div>
-    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="sweetalert2.js"></script>
     <script src="script.js"></script>
   </body>
 </html>
