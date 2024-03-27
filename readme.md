@@ -1,7 +1,7 @@
 # Weather-App (Proyecto Clima)
 
 
-## Link del proyecto -> [text](https://perea07.github.io/Weather-App/)
+## Link del proyecto -> https://perea07.github.io/Weather-App/
 
 ## Descripción
 Proyecto clima: El cual se encarga de recibir por medio de inputs un país y una ciudad para consultar el clima en tiempo real.
